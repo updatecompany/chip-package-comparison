@@ -10,7 +10,9 @@ Every manufacturer has a slightly different interpretation of chip packages, eve
 
 This page gathers up the diagrams and package names used by each company and compares them by looking at specific excerpts from chip datasheets.
 
-Be careful, though. Always doublecheck the footprint for your specific chips, these guys don't make it easy!
+Within a single company, we would expect that a package type has the same dimensions wherever they use it in their product lines.
+
+Be careful, though. Always doublecheck the footprint for your specific chips, these guys don't make it easy! Between different companies, the chip sizes will very likely differ.
 
 If there are any requests for new packages to be added to this comparison, please add them to the https://github.com/updatecompany/chip-package-comparison/issues[issues] page and we'll add them as soon as we can.
 
@@ -58,19 +60,39 @@ If you are lucky, the footprints use the same body width (usually ~4.4mm) for th
 
 ### Package
 
-NXP's package looks like this, and they call it https://www.nxp.com/packages/SOT360-1[SOT360-1]:
+#### Infineon
+
+image::20-tssop-infineon-package.svg[title="Infineon TSSOP-20 package"]
+
+#### NXP (aka https://www.nxp.com/packages/SOT360-1[SOT360-1]):
 
 image::20-tssop-nxp-package.svg[title="NXP TSSOP-20 package"]
 
-Renesas' package looks like this:
+#### Renesas
 
 image::20-tssop-renesas-package.svg[title="Renesas TSSOP-20 package"]
 
+#### ST Microelectronics
+
+image::20-tssop-stm-package.svg[title="ST Microelectronics TSSOP-20 package"]
+
 ### Solder Land Pattern
+
+#### Infineon
+
+image::20-tssop-infineon-solder.svg[title="Infineon TSSOP-20 land pattern for soldering"]
+
+#### NXP
 
 image::20-tssop-nxp-solder.svg[title="NXP TSSOP-20 land pattern for soldering"]
 
+#### Renesas
+
 image::20-tssop-renesas-solder.svg[title="Renesas TSSOP-20 land pattern for soldering"]
+
+#### ST Microelectronics
+
+image::20-tssop-stm-solder.svg[title="ST Microelectronics land pattern for soldering"]
 
 # References
 
