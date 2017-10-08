@@ -177,6 +177,24 @@ a|image::64-tqfp-silabs-solder-3.svg[title="Silicon Labs TQFP-64 stencil pattern
 
 image::64-lqfp-stm-solder.svg[title="ST Microelectronics LQFP-64 land pattern for soldering"]
 
+## HVQFN-32: Same Name, Different Size
+
+There will be plenty of situations where the same package name will be used by two vendors, but the physical dimensions will not match. For instance, NXP and Renesas both have packages they refer to as HVQFN-32.
+
+Taking a closer look at the mechanical drawings, it becomes immediately clear that the chips are different sizes.
+
+### NXP (aka https://www.nxp.com/packages/SOT865-3[SOT-865-3])
+
+The NXP HVQFN-32 package is 7x7mm, with a pin pitch of 0.65mm.
+
+image::32-hvqfn-nxp-package.svg[title="NXP HVQFN-32 package"]
+
+### Renesas
+
+The Renesas HVQFN-32 package is 5x5mm, with a pin pitch of 0.5mm.
+
+image::32-hvqfn-renesas-package.svg[title="Renesas HVQFN-32 package"]
+
 ## References
 
 . http://www.microchip.com/quality/packaging-specifications
