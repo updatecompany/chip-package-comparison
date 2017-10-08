@@ -4,9 +4,11 @@
 
 A comparison of chip packages and SMD land patterns from major manufacturers (NXP, STM, etc.)
 
-Every manufacturer has a slightly different interpretation of chip packages, even if they call them by the same JEDEC name.
+Every manufacturer has a slightly different interpretation of chip packages, even if they call them by the same JEDEC or shorthand name.
 
 This page gathers up the diagrams and package names used by each company and compares them by looking at specific excerpts from chip datasheets.
+
+Be careful, though. Always check your footprints, these guys don't make it easy!
 
 ## PDIP-14 (Plastic Dual Inline Package, 14 pins)
 
@@ -14,8 +16,35 @@ This one is pretty easy. It's your standard, old-school 74xx chip size. http://w
 
 It looks like this. No one messes with this package.
 
-image::14-pdip-microchip.svg[title="Microchip's PDIP-14"]
+image::14-pdip-microchip.svg[title="Microchip PDIP-14"]
+
+It is through-hole, so you can throw it onto a breadboard or copper-clad perfboard without any trouble.
+
+## SOIC-20 (Small Outline Integrated Circuit, 20 pins)
+
+This one is used by Microchip and https://www.nxp.com/[NXP] for some of their low-complexity microcontrollers. It's also referred to as SO-20.
+
+### Package
+
+Microchip's package looks like this:
+
+[cols="2"]
+|===
+a|image::20-soic-microchip-package-1.svg[title="Microchip SO-20 package"]
+a|image::20-soic-microchip-package-2.svg[title="Microchip SO-20 package"]
+|===
+
+NXP's package looks like this, and they call it https://www.nxp.com/packages/SOT163-1[SOT163-1]:
+
+image::20-soic-nxp-package.svg[title="NXP SOIC-20 package"]
+
+### Land Pattern
+
+image::20-soic-microchip-solder.svg[title="Microchip SOIC-20 land pattern for soldering"]
+
+image::20-soic-nxp-solder.svg[title="NXP SOIC-20 land pattern for soldering"]
 
 # References
 
 http://www.microchip.com/quality/packaging-specifications
+https://www.nxp.com/packages
