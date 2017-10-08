@@ -6,7 +6,7 @@ image::chip-logo.svg[alt="The Update Company Logo", align="center", link="https:
 
 A comparison of chip packages and SMD land patterns from major manufacturers (NXP, STM, etc.)
 
-Every manufacturer has a slightly different interpretation of chip packages, even if they call them by the same JEDEC or shorthand name.
+Every manufacturer has a slightly different interpretation of chip packages, even if they call them by the same JEDEC, IEC, or shorthand name.
 
 This page gathers up the diagrams and package names used by each company and compares them by looking at specific excerpts from chip datasheets.
 
@@ -58,6 +58,8 @@ This package is used by many companies, such as https://www.infineon.com/[Infine
 
 If you are lucky, the footprints use the same body width (usually ~4.4mm) for the 14-pin, 16-pin, and 20-pin versions.
 
+It seems that most companies have settled on a 4.4mm x 6.5mm package with 0.65mm pin pitch. This is a very good thing.
+
 ### Package
 
 #### Infineon
@@ -101,6 +103,26 @@ image::20-tssop-stm-solder.svg[title="ST Microelectronics land pattern for solde
 #### Texas Instruments (from http://www.ti.com/lit/an/sbfa015a/sbfa015a.pdf[SBFA015A])
 
 image::20-tssop-ti-solder.svg[title="Texas Instruments land pattern for soldering"]
+
+## LQFP-64 (Low Profile Quad Flat Pack)
+
+### Package
+
+#### NXP (aka https://www.nxp.com/packages/SOT314-2[SOT314-2])
+
+NXP uses a standard pin pitch (0.5mm) and size (10 x 10mm).
+
+image::64-lqfp-nxp-package.svg[title="NXP LQFP-64 package"]
+
+#### Renesas
+
+Renesas, however, has LQFP-64 packages that differ from other suppliers in pin pitch (0.8mm) and overall size (14 x 14mm).
+
+### Solder
+
+#### NXP
+
+image::64-lqfp-nxp-solder.svg[title="NXP LQFP-64 land pattern for soldering"]
 
 ## References
 
