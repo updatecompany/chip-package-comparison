@@ -76,6 +76,10 @@ image::20-tssop-renesas-package.svg[title="Renesas TSSOP-20 package"]
 
 image::20-tssop-stm-package.svg[title="ST Microelectronics TSSOP-20 package"]
 
+#### Texas Instruments (aka http://www.ti.com/packaging/docs/searchtipackages.tsp?packageName=SO[PW])
+
+image::20-tssop-ti-package.svg[title="Texas Instruments TSSOP-20 package"]
+
 ### Solder Land Pattern
 
 #### Infineon
@@ -94,8 +98,13 @@ image::20-tssop-renesas-solder.svg[title="Renesas TSSOP-20 land pattern for sold
 
 image::20-tssop-stm-solder.svg[title="ST Microelectronics land pattern for soldering"]
 
-# References
+#### Texas Instruments (from http://www.ti.com/lit/an/sbfa015a/sbfa015a.pdf[SBFA015A])
+
+image::20-tssop-ti-solder.svg[title="Texas Instruments land pattern for soldering"]
+
+## References
 
 . http://www.microchip.com/quality/packaging-specifications
 . https://www.nxp.com/packages
 . https://www.renesas.com/en-eu/search/package-list.html
+. http://www.ti.com/lsds/ti/packaging/packaging_tools/find_packages.page
