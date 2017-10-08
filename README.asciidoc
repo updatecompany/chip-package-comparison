@@ -108,6 +108,16 @@ image::20-tssop-ti-solder.svg[title="Texas Instruments land pattern for solderin
 
 ### Package
 
+#### Microchip
+
+Microchip uses a standard pin pitch (0.5mm) and size (10 x 10mm).
+
+[cols="2"]
+|===
+a|image::64-lqfp-microchip-package-1.svg[title="ST Microelectronics LQFP-64 package"]
+a|image::64-lqfp-microchip-package-2.svg[title="ST Microelectronics LQFP-64 package"]
+|===
+
 #### NXP (aka https://www.nxp.com/packages/SOT314-2[SOT314-2])
 
 NXP uses a standard pin pitch (0.5mm) and size (10 x 10mm).
@@ -116,13 +126,56 @@ image::64-lqfp-nxp-package.svg[title="NXP LQFP-64 package"]
 
 #### Renesas
 
-Renesas, however, has LQFP-64 packages that differ from other suppliers in pin pitch (0.8mm) and overall size (14 x 14mm).
+Renesas uses a standard pin pitch of (0.5mm) and size (10 x 10mm), though they fall into the "LFQFP" family of packages. It's a slight naming difference, but mechanically comparable.
+
+image::64-lfqfp-renesas-package.svg[title="Renesas LFQFP-64 package"]
+
+#### Silicon Labs
+
+Silicon Labs uses a standard pin pitch (0.5mm) and size (10 x 10mm), their chips are designated as TQFP.
+
+[cols="2"]
+|===
+a|image::64-tqfp-silabs-package-1.svg[title="Silicon Labs TQFP-64 package"]
+a|image::64-tqfp-silabs-package-2.svg[title="Silicon Labs TQFP-64 package"]
+|===
+
+#### ST Microelectronics
+
+ST uses a standard pin pitch (0.5mm) and size (10 x 10mm).
+
+[cols="2"]
+|===
+a|image::64-lqfp-stm-package-1.svg[title="ST Microelectronics LQFP-64 package"]
+a|image::64-lqfp-stm-package-2.svg[title="ST Microelectronics LQFP-64 package"]
+|===
 
 ### Solder
+
+#### Microchip
+
+image::64-lqfp-microchip-solder.svg[title="Microchip LQFP-64 land pattern for soldering"]
 
 #### NXP
 
 image::64-lqfp-nxp-solder.svg[title="NXP LQFP-64 land pattern for soldering"]
+
+#### Renesas
+
+image::64-lfqfp-renesas-solder.svg[title="Renesas LFQFP-64 land pattern for soldering"]
+
+#### Silicon Labs
+
+[cols="3"]
+|===
+a|image::64-tqfp-silabs-solder-1.svg[title="Silicon Labs TQFP-64 land pattern for soldering"]
+a|image::64-tqfp-silabs-solder-2.svg[title="Silicon Labs TQFP-64 solder mask pattern"]
+a|image::64-tqfp-silabs-solder-3.svg[title="Silicon Labs TQFP-64 stencil pattern"]
+|===
+
+#### ST Microelectronics
+
+image::64-lqfp-stm-solder.svg[title="ST Microelectronics LQFP-64 land pattern for soldering"]
 
 ## References
 
