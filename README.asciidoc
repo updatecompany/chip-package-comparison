@@ -1,0 +1,21 @@
+:imagesdir: literature
+
+# Chip Package Comparison
+
+A comparison of chip packages and SMD land patterns from major manufacturers (NXP, STM, etc.)
+
+Every manufacturer has a slightly different interpretation of chip packages, even if they call them by the same JEDEC name.
+
+This page gathers up the diagrams and package names used by each company and compares them by looking at specific excerpts from chip datasheets.
+
+## PDIP-14 (Plastic Dual Inline Package, 14 pins)
+
+This one is pretty easy. It's your standard, old-school 74xx chip size. http://www.microchip.com/[Microchip] uses this package for a number of their 8-bit microcontrollers.
+
+It looks like this. No one messes with this package.
+
+image::14-pdip-microchip.svg[title="Microchip's PDIP-14"]
+
+# References
+
+http://www.microchip.com/quality/packaging-specifications
